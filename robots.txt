@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /kak-zamerit-obuv-dlya-obuvnicy/
+Sitemap: https://tatyanazaiceva76.github.io/kak-zamerit-obuv-dlya-obuvnicy/sitemap.xml

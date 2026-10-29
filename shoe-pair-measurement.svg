@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="700" viewBox="0 0 900 700" role="img" aria-labelledby="title desc">
+  <title id="title">Как измерить внешний прямоугольник пары обуви</title>
+  <desc id="desc">Вид сверху на два условных ботинка в охватывающем прямоугольнике с отдельными стрелками ширины Wpair и глубины Dpair. Справа вид сбоку с вертикальной стрелкой высоты Hpair.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="9" markerHeight="9" refX="4.5" refY="4.5" orient="auto-start-reverse"><path d="M0 0L9 4.5L0 9Z" fill="#1e5a73"/></marker>
+    <style>.bg{fill:#f7f5ef}.box{fill:#fff;stroke:#172128;stroke-width:4;stroke-dasharray:12 8}.shoe{fill:#d98755;stroke:#6f351b;stroke-width:4}.sole{fill:none;stroke:#172128;stroke-width:5}.dim{stroke:#1e5a73;stroke-width:4;marker-start:url(#arrow);marker-end:url(#arrow)}.guide{stroke:#84949b;stroke-width:2;stroke-dasharray:7 6}.label{font:700 25px Arial,sans-serif;fill:#172128}.value{font:800 25px Arial,sans-serif;fill:#1e5a73}.small{font:500 18px Arial,sans-serif;fill:#58646b}.tag{fill:#fff;stroke:#bcc8cc;stroke-width:2}</style>
+  </defs>
+  <rect class="bg" width="900" height="700"/>
+  <text x="44" y="50" class="label">Внешние крайние точки без сжатия</text>
+  <text x="44" y="80" class="small">Условная схема — не масштаб и не размерный шаблон</text>
+
+  <text x="72" y="120" class="label">Вид сверху</text>
+  <rect x="110" y="155" width="430" height="350" rx="8" class="box"/>
+  <path class="shoe" d="M110 435L110 250Q110 155 205 155Q300 155 300 250L300 435Q300 505 205 505Q110 505 110 435Z"/>
+  <path class="sole" d="M114 443Q205 490 296 443"/>
+  <path class="shoe" d="M350 435L350 250Q350 155 445 155Q540 155 540 250L540 435Q540 505 445 505Q350 505 350 435Z"/>
+  <path class="sole" d="M354 443Q445 490 536 443"/>
+  <line x1="110" y1="545" x2="540" y2="545" class="dim"/>
+  <line x1="110" y1="505" x2="110" y2="565" class="guide"/>
+  <line x1="540" y1="505" x2="540" y2="565" class="guide"/>
+  <rect x="227" y="558" width="220" height="46" rx="7" class="tag"/>
+  <text x="249" y="589" class="value">Wpair · ширина</text>
+  <line x1="70" y1="155" x2="70" y2="505" class="dim"/>
+  <line x1="70" y1="155" x2="110" y2="155" class="guide"/>
+  <line x1="70" y1="505" x2="110" y2="505" class="guide"/>
+  <rect x="18" y="608" width="207" height="46" rx="7" class="tag"/>
+  <text x="34" y="639" class="value">Dpair · глубина</text>
+
+  <text x="635" y="120" class="label">Вид сбоку</text>
+  <line x1="620" y1="505" x2="850" y2="505" class="sole"/>
+  <path class="shoe" d="M665 505L665 468C674 425 686 363 711 284Q724 245 744 245Q762 245 764 282L783 391C801 423 830 444 842 468L850 505Z"/>
+  <line x1="610" y1="245" x2="610" y2="505" class="dim"/>
+  <line x1="610" y1="245" x2="711" y2="245" class="guide"/>
+  <line x1="610" y1="505" x2="665" y2="505" class="guide"/>
+  <rect x="624" y="550" width="220" height="46" rx="7" class="tag"/>
+  <text x="643" y="581" class="value">Hpair · высота</text>
+  <text x="44" y="665" class="small">Измеряйте в той ориентации, в которой пара будет храниться.</text>
+</svg>

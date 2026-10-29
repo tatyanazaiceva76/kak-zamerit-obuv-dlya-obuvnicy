@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="210mm" height="297mm" viewBox="0 0 210 297" role="img" aria-labelledby="title desc">
+  <title id="title">Лист замеров пар обуви и чистого пространства полки</title>
+  <desc id="desc">Пустой лист A4 с четырьмя строками для описания пары, ориентации, ширины, глубины и высоты; отдельные поля для чистого пространства полки, препятствий, двери и доступа.</desc>
+  <defs><style>.page{fill:#fff}.ink{fill:#172128}.muted{fill:#58646b}.accent{fill:#1e5a73}.line{stroke:#172128;stroke-width:.45}.soft{stroke:#aab5b9;stroke-width:.35}.box{fill:none;stroke:#172128;stroke-width:.55}.h1{font:700 7.5px Arial,sans-serif}.h2{font:700 4.8px Arial,sans-serif}.body{font:400 3.3px Arial,sans-serif}.small{font:400 2.8px Arial,sans-serif}.head{font:700 3.1px Arial,sans-serif}</style></defs>
+  <rect class="page" width="210" height="297"/>
+  <rect x="12.5" y="12.5" width="185" height="272" rx="2" class="box"/>
+  <text x="18" y="25" class="h1 ink">Замеры обуви и полки</text>
+  <text x="18" y="32" class="body muted">Внешние крайние точки без сжатия · миллиметры · не масштабный шаблон</text>
+  <text x="18" y="43" class="h2 accent">1. Фактические пары в предполагаемой ориентации</text>
+
+  <rect x="18" y="49" width="174" height="87" class="box"/>
+  <line x1="18" y1="62" x2="192" y2="62" class="line"/><line x1="18" y1="80.5" x2="192" y2="80.5" class="soft"/><line x1="18" y1="99" x2="192" y2="99" class="soft"/><line x1="18" y1="117.5" x2="192" y2="117.5" class="soft"/>
+  <line x1="28" y1="49" x2="28" y2="136" class="line"/><line x1="70" y1="49" x2="70" y2="136" class="line"/><line x1="116" y1="49" x2="116" y2="136" class="line"/><line x1="141" y1="49" x2="141" y2="136" class="line"/><line x1="166" y1="49" x2="166" y2="136" class="line"/>
+  <text x="21" y="57" class="head ink">№</text><text x="33" y="55" class="head ink">Описание</text><text x="33" y="59" class="small muted">пара/коробка</text><text x="75" y="55" class="head ink">Ориентация</text><text x="75" y="59" class="small muted">как на полке</text><text x="120" y="57" class="head ink">Wpair</text><text x="145" y="57" class="head ink">Dpair</text><text x="170" y="57" class="head ink">Hpair</text>
+  <text x="22" y="74" class="head ink">1</text><text x="22" y="92.5" class="head ink">2</text><text x="22" y="111" class="head ink">3</text><text x="22" y="129.5" class="head ink">4</text>
+
+  <text x="18" y="151" class="h2 accent">2. Чистое пространство полки между препятствиями</text>
+  <rect x="18" y="157" width="174" height="42" class="box"/>
+  <line x1="18" y1="178" x2="192" y2="178" class="soft"/><line x1="76" y1="157" x2="76" y2="178" class="line"/><line x1="134" y1="157" x2="134" y2="178" class="line"/>
+  <text x="23" y="165" class="head ink">Чистая ширина W</text><text x="23" y="173" class="body muted">__________ мм</text><text x="81" y="165" class="head ink">Чистая глубина D</text><text x="81" y="173" class="body muted">__________ мм</text><text x="139" y="165" class="head ink">Чистая высота H</text><text x="139" y="173" class="body muted">__________ мм</text>
+  <text x="23" y="186" class="head ink">Препятствия внутри просвета:</text><line x1="77" y1="187" x2="187" y2="187" class="soft"/><line x1="23" y1="194" x2="187" y2="194" class="soft"/>
+
+  <text x="18" y="214" class="h2 accent">3. Дверь, механизм и доступ — отдельная проверка</text>
+  <text x="21" y="224" class="body ink">□ Петли, направляющие, рейки и задняя стенка учтены в чистом просвете</text>
+  <text x="21" y="233" class="body ink">□ Пара проходит при фактическом открывании двери и способе постановки</text>
+  <text x="21" y="242" class="body ink">□ Для второго ряда проверен доступ к задней паре, а не только глубина</text>
+  <text x="21" y="251" class="body ink">□ Наклонный/вращающийся механизм проверен в движении отдельно</text>
+
+  <text x="18" y="266" class="head ink">Заметки:</text><line x1="36" y1="266" x2="192" y2="266" class="soft"/><line x1="18" y1="275" x2="192" y2="275" class="soft"/>
+  <text x="18" y="282" class="small muted">Лист A4 portrait. Это запись наблюдений, не шаблон, калибр или гарантия вместимости/масштаба печати.</text>
+</svg>
